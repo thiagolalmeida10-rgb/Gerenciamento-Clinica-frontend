@@ -183,10 +183,16 @@ export default function Tutores(){
     return(
         <main className="min-h-screen bg-gray-300 px-4 py-8">
             <div className="mx-auto max-w-5xl">
+                
                 <div className="mb-8 text-center">
+                    <div className="mb-3 text-5xl">
+                        👤
+                    </div>
+
                     <h1 className="text-3xl font-bold text-gray-900">
                         Tutores
                     </h1>
+
                     <p className="mt-1 text-gray-500">
                         Tutores da clínica.
                     </p>

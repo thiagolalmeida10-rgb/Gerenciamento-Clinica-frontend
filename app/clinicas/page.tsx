@@ -188,6 +188,10 @@ export default function Clinica(){
             <div className="mx-auto max-w-5xl">
 
                 <div className="mb-8 text-center">
+                    <div className="mb-3 text-5xl">
+                        🏥
+                    </div>
+                    
                     <h1 className="text-4xl font-bold text-blue-900">
                         Clínicas Veterinárias
                     </h1>

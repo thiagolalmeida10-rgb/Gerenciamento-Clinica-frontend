@@ -187,10 +187,16 @@ export default function Veterinarios(){
     return(
         <main className="min-h-screen bg-slate-300 px-4 py-10">
             <div className="mx-auto max-w-5xl">
+                
                 <div className="mb-8 text-center">
+                    <div className="mb-3 text-5xl">
+                        🩺
+                    </div>
+
                     <h1 className="text-3xl font-bold text-slate-800">
                         Veterinários
                     </h1>
+
                     <p className="mt-1 text-slate-500">
                         Veterinários da clínica
                     </p>
