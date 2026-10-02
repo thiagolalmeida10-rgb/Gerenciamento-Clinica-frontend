@@ -25,7 +25,7 @@ export default function Veterinarios(){
     
     const [idEditando, setIdEditando] = useState<number | null>(null)
 
-    const API_URL = "https://gerenciamento-clinica-frontend.onrender.com//veterinarios";
+    const API_URL = "https://gerenciamento-clinica-backend.onrender.com/veterinarios";
     
     useEffect(() => {
         async function carregarVeterinarios() {

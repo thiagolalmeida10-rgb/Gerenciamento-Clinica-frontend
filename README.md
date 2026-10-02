@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://gerenciamento-clinica-frontend.onrender.com/](https://gerenciamento-clinica-frontend.onrender.com/) with your browser to see the result.
+Open [https://gerenciamento-clinica-backend.onrender.com/](https://gerenciamento-clinica-backend.onrender.com/) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

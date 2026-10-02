@@ -27,7 +27,7 @@ export default function Pacientes(){
     
     const [idEditando, setIdEditando] = useState<number | null>(null)
 
-    const API_URL = "https://gerenciamento-clinica-frontend.onrender.com/pacientes";
+    const API_URL = "https://gerenciamento-clinica-backend.onrender.com/pacientes";
 
     useEffect(() => {
         async function carregarPacientes() {
