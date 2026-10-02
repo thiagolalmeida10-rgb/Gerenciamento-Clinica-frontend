@@ -178,6 +178,7 @@ export default function Veterinarios(){
 
     function editarVeterinario(veterinario: Veterinario){
         setIdEditando(veterinario.id)
+        setNome(veterinario.nome)
         setEmail(veterinario.email)
         setEspecialidade(veterinario.especialidade)
         setTelefone(veterinario.telefone)
