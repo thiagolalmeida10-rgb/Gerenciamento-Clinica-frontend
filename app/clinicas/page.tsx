@@ -23,7 +23,7 @@ export default function Clinica(){
 
     const [idEditando, setIdEditando] = useState<number | null>(null)
 
-    const API_URL = "http://localhost:8080/clinicas";
+    const API_URL = "https://gerenciamento-clinica-frontend.onrender.com//clinicas";
          
     useEffect(() => {
         async function buscarClinicas() {

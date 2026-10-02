@@ -23,7 +23,7 @@ export default function Tutores(){
         
     const [idEditando, setIdEditando] = useState<number | null>(null)
 
-    const API_URL = "http://localhost:8080/tutores";
+    const API_URL = "https://gerenciamento-clinica-frontend.onrender.com//tutores";
 
     useEffect(() => {
         async function carregarTutores() {
